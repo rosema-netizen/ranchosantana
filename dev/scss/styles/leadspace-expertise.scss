@@ -1,0 +1,45 @@
+@import '../common-imports';
+
+.leadspace-expertise {
+    &__content {
+        p {
+            margin: rem(0 0 35px);
+            @include media-breakpoint-up(xl) {
+                margin: rem(0 0 45px);
+            }
+            &:last-child {
+                margin: rem(0px);
+            }
+        }
+    }
+
+    &__thumb {
+        max-width: rem(126px);
+        position: absolute;
+        top: rem(15px);
+        right: rem(0px);
+        @include media-breakpoint-up(md) {
+            max-width: rem(194px);
+            top: rem(40px);
+        }
+        @include media-breakpoint-up(xl) {
+            max-width: rem(364px);
+            top: rem(100px);
+        }
+    }
+
+    &.img-inside-container {
+        .leadspace-expertise__thumbinside {
+            max-width: rem(166px);
+            margin-bottom: rem(-55px);
+            @include media-breakpoint-up(sm) {
+                max-width: initial;
+                margin-bottom: rem(0px);
+            }
+        }
+    }
+
+}
+
+
+

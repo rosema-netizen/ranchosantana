@@ -1,0 +1,22 @@
+@import '../common-imports';
+
+.leadspace-people {
+
+    .btn-tertiary {
+        font-size: rem(16px);
+        letter-spacing: rem(0.5px);
+        color: $secondary;
+    }
+
+    .toggle-text {
+        height: rem(140px);
+        @include media-breakpoint-up(md) {
+            height: auto;
+        }
+        &.active {
+            height: auto;
+        }
+    }
+
+
+}

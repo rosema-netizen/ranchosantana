@@ -1,0 +1,49 @@
+// Font files here
+
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('#{$font-path}/FoundersGroteskLight.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('#{$font-path}/FoundersGroteskRegular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('#{$font-path}/FoundersGroteskMedium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('#{$font-path}/FoundersGroteskSemibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FoundersGrotesk';
+    src: url('#{$font-path}/FoundersGroteskBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        @@include('includes/head.html',{'pageTitle':'Hero Modules | Landmark Ventures'})
+    </head>
+    <body>
+
+        <div class="theme-app d-flex flex-column">
+            <div class="theme-wrap position-relative">
+                @@include('includes/header.html', {
+                    'headerSkin': 'theme-header--dark'
+                })
+                <main class="theme-main">
+
+                    <section class="section py-20">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10">
+                                    <h1 class="mb-6">Grid Modules</h1>
+                                    <ol>
+                                        <li class="mb-2">Icon Grid Light</li>
+                                        <li class="mb-2">Icon Grid Dark</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- icon grid Light -->
+                    <div class="container mb-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 mt-20">
+                                <h2>Icon Grid Light</h2>
+                            </div>
+                        </div>
+                    </div>
+                    @@include('includes/modules/section/section-icon-grid.html',{
+                        'modifier':'light',
+                        'bgColor':'',
+                        'sectionTitle':'The Best Things About Working at Landmark',
+                        'swiperPaginationSelector': 'swiper-pagination-0',
+                        'swiperContainer': 'swiper-container-0'
+                    })
+                    <!-- /icon grid Light -->
+
+                    <!-- icon grid dark -->
+                    <div class="container mb-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10">
+                                <h2>Icon Grid Dark</h2>
+                            </div>
+                        </div>
+                    </div>
+                    @@include('includes/modules/section/section-icon-grid.html',{
+                        'modifier':'dark',
+                        'bgColor':'bg-primary',
+                        'sectionTitle':'Our Priorities',
+                        'swiperPaginationSelector': 'swiper-pagination-1',
+                        'swiperContainer': 'swiper-container-1'
+                    })
+                    <!-- /icon grid dark -->
+                    
+
+                </main>
+            </div>
+            @@include('includes/footer.html')
+        </div>
+
+    </body>
+</html>
+    

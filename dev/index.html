@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        @@include('includes/head.html',{'pageTitle':'Home | Landmark Ventures'})
+    </head>
+    <body>
+        <div class="theme-app d-flex flex-column">
+            <div class="theme-wrap position-relative">
+                @@include('includes/header.html', {
+                    'headerSkin': 'theme-header--dark'
+                })
+                <main class="theme-main">
+
+                    <!-- Leadspace Home Dark -->
+                    @@include('includes/modules/above-the-fold/leadspace-home-dark.html', {
+                        leadspaceSkin: 'leadspace-home--dark',
+                        para: 'We develop lasting connections in select technology sectors to catalyze growth and close deals.',
+                        mainText: 'We build exceptional',
+                        borderText: 'relationships.',
+                        thumb: 'images/triad-squares@2x.png'
+                    })
+                    <!-- /Leadspace Home Dark -->
+
+                </main>
+            </div>
+            @@include('includes/footer.html')
+        </div>
+    </body>
+</html>

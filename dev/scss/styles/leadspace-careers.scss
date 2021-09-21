@@ -1,0 +1,25 @@
+@import '../common-imports';
+
+.leadspace-careers {
+    .thumbnail-img {
+        max-width: rem(126px);
+        position: absolute;
+        top: rem(160px);
+        left: rem(0px);
+        @include media-breakpoint-up(xl) {
+            max-width: rem(263px);
+        }
+    }
+
+    &__content {
+        p {
+            margin-bottom: rem(20px);
+            @include media-breakpoint-up(md) {
+                margin-bottom: rem(45px);
+            }
+            &:last-child {
+                margin-bottom: rem(0px);
+            }
+        }
+    }
+}
