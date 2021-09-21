@@ -1,5 +1,5 @@
 
-# Bootstrap 5 Boilerplate - Basic
+# FED Starter Kit
 
 
 ## General info
