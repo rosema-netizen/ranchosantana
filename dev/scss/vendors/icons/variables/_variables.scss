@@ -1,34 +1,28 @@
-$icomoon-font-family: 'landmark' !default; // Name should be same as font name [Strict case sensitive]
-$icomoon-font-path: './../fonts' !default;
+$icomoon-font-family: "Icons" !default; // Name should be same as font name [Strict case sensitive]
+$icomoon-font-path: "./../fonts" !default;
 
-$icon-menu: "\e900";
-$icon-plus: "\e901";
-$icon-play: "\e902";
-$icon-plus-outline: "\e903";
-$icon-briefcase: "\e904";
-$icon-change: "\e905";
-$icon-check: "\e906";
-$icon-chevron-down: "\e907";
-$icon-close: "\e908";
-$icon-close-with-bg: "\e909";
-$icon-cog: "\e91c";
+$icon-chevron-down: "\e902";
+$icon-chevron-left: "\e903";
+$icon-chevron-right: "\e904";
+$icon-chevron-up: "\e905";
+$icon-down: "\e907";
+$icon-top: "\e916";
+$icon-left: "\e90d";
+$icon-right: "\e913";
+$icon-external: "\e909";
+$icon-edit: "\e908";
 $icon-facebook: "\e90a";
-$icon-flickr: "\e90b";
-$icon-fpo: "\e90c";
-$icon-instagram: "\e90d";
-$icon-layers: "\e90e";
-$icon-link: "\e90f";
-$icon-linkedin: "\e910";
-$icon-loader: "\e911";
-$icon-medium: "\e913";
-$icon-minus: "\e912";
-$icon-relationship: "\e914";
-$icon-right: "\e915";
-$icon-search: "\e916";
-$icon-star: "\e917";
-$icon-twitter: "\e918";
-$icon-user: "\e919";
-$icon-vimeo: "\e91a";
-$icon-youtube: "\e91b";
-
-
+$icon-youtube: "\e918";
+$icon-info: "\e90b";
+$icon-instagram: "\e90c";
+$icon-twitter: "\e917";
+$icon-linkedin: "\e90e";
+$icon-localtion: "\e90f";
+$icon-tick: "\e915";
+$icon-logo: "\e910";
+$icon-play: "\e911";
+$icon-camera: "\e901";
+$icon-plus: "\e912";
+$icon-burger: "\e900";
+$icon-search: "\e914";
+$icon-close: "\e906";

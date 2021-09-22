@@ -16,7 +16,6 @@ body {
     @include font-smoothing(on);
     font-size: 1.8rem;
     line-height: 2.8rem;
-    margin: 1rem 2rem;
 
     &.prevent-scrolling {
         @extend .overflow-hidden, .position-fixed, .w-100;
