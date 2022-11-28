@@ -3,7 +3,6 @@
 
 
 ## General info
-T
 This is a Bootstrap 5 Boilerplate with Gulp 4+. Sass, browser-sync.
 “Basic” is the ultimate Bootstrap 5 starter boilerplate with Gulp 4 and webpack for automation and rapid development.
 
