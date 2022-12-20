@@ -5,11 +5,15 @@ import cleanCSS from 'gulp-clean-css';
 // import autoprefixer from 'gulp-autoprefixer';
 import postcss from 'gulp-postcss';
 import autoprefixer from 'autoprefixer';
-
 import plumber from 'gulp-plumber';
 import sourcemaps from 'gulp-sourcemaps';
-import sass from 'gulp-sass';
 import bs from 'browser-sync';
+import dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+
+
+
+const sass = gulpSass(dartSass);
 
 const paths = {
     styles: {
