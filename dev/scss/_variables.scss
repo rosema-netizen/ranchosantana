@@ -46,6 +46,11 @@ $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
+$cream:    #F1EAD9 !default;
+$terracotta: #BAA27C !default;
+$ebonyclay:  #2F323D !default;
+$offwhite:   #FFFCF0 !default;
+$carrot:     #CB6644 !default;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -63,7 +68,12 @@ $colors: (
   "black":      $black,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-800,
+  "cream":      $cream,
+  "terracotta":      $terracotta,
+  "ebonyclay":      $ebonyclay,
+  "offwhite":      $offwhite,
+  "carrot":      $carrot
 ) !default;
 // scss-docs-end colors-map
 
@@ -298,10 +308,11 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       $terracotta !default;
+$secondary:     $cream !default;
 $success:       $green !default;
 $info:          $cyan !default;
+$text:          $ebonyclay !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
@@ -317,7 +328,12 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "cream":       $cream,
+  "terracotta":       $terracotta,
+  "ebonyclay":       $ebonyclay,
+  "offwhite":       $offwhite,
+  "carrot":       $carrot
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -371,14 +387,30 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 // You can add more entries to the $spacers map, should you need more variation.
 
 // scss-docs-start spacer-variables-maps
-$spacer: 1rem !default;
+$spacer: 4rem !default;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
+  1: $spacer * .1,
+  2: $spacer * .2,
+  3: $spacer * .3,
+  4: $spacer * .4,
+  5: $spacer * .5,
+  6: $spacer * .6,
+  7: $spacer * .7,
+  8: $spacer * .8,
+  9: $spacer * .9,
+  10: $spacer * 1,
+  11: $spacer * 1.1,
+  12: $spacer * 1.2,
+  13: $spacer * 1.3,
+  14: $spacer * 1.4,
+  15: $spacer * 1.5,
+  16: $spacer * 1.6,
+  17: $spacer * 1.7,
+  18: $spacer * 1.8,
+  19: $spacer * 1.9,
+  20: $spacer * 2,
+  
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -540,8 +572,9 @@ $aspect-ratios: (
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif:      'Lexend', sans-serif!default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-serif:           'EB Garamond', serif;
 // stylelint-enable value-keyword-case
 $font-family-base:            var(--#{$prefix}font-sans-serif) !default;
 $font-family-code:            var(--#{$prefix}font-monospace) !default;
