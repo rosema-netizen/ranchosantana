@@ -1,0 +1,10 @@
+.btn{
+   &-primary{
+    color: $primary;
+    background: transparent;
+    &:hover{
+        background-color: $primary;
+        color: $white;
+    }
+   }
+}
